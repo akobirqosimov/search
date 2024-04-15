@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.detail {
+  width: 400px;
+  height: 350px;
+  border: 2px solid gray;
+}
+
+.detail img {
+  height: 200px;
+  width: 250px;
+  margin: 25px auto;
+  display: block;
+}
+
+.detail h4 {
+  font-size: 20px;
+  padding: 10px 15px;
+  text-align: center;
+}
+.images {
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.just {
+  margin: 30px auto;
+  display: flex;
+  width: 800px;
+  border: 1px solid gray;
+}
+
+.just input {
+  height: 30px;
+  flex-grow: 1;
+  border: none;
+  font-size: 20px;
+  padding: 5px;
+  outline: none;
+}
+.just button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: transparent;
+}
+
+.icons {
+  font-size: 30px;
+}
